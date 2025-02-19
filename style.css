@@ -182,3 +182,36 @@ footer {
 #consultationCallLink:hover {
     background-color: #e65c00;
 }
+
+
+.resume {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.resume-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+.resume-photo {
+    flex: 0 0 200px;
+    text-align: center;
+}
+
+
+.resume-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #ff6600;
+}
